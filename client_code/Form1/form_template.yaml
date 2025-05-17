@@ -5,14 +5,6 @@ components:
   type: form:dep_lin1x4oec0ytd:_Components.Heading
 - components:
   - components:
-    - layout_properties: {slot: card-content-container-slot}
-      name: name_box
-      properties: {label: 'Enter your name:'}
-      type: form:dep_lin1x4oec0ytd:_Components.TextInput.TextBox
-    - layout_properties: {slot: card-content-container-slot}
-      name: file_loader_1
-      properties: {bold: true, icon: 'mi:photo_camera', text: Take a picture}
-      type: form:dep_lin1x4oec0ytd:_Components.FileLoader
     - event_bindings: {click: button_1_click}
       layout_properties: {slot: card-content-container-slot}
       name: button_1
